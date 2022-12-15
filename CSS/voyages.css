@@ -1,0 +1,99 @@
+main {
+	z-index: -1;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.hover1 p {
+	font-size: 20px;
+	margin-top: 0;
+}
+.hover2 p {
+	font-size: 20px;
+	margin-top: 0;
+}
+.flexdirection {
+	display: flex;
+	justify-content: space-evenly;
+}
+.hover1{
+	display: flex;
+	color: #01b6ff;
+	z-index: 3;
+}
+.hover2{
+	color: #01b6ff;
+	z-index: 3;
+}
+#icon1 {
+	margin-right: 25px;
+	font-size: 50px;
+}
+.continentnavigation {
+	display: none;
+}
+.guidenavigation {
+	display: none;
+}
+.hover1:hover .continentnavigation {
+	display: inline-block;
+	position: absolute;
+	top: 190px;
+	color: #ff936a;
+	z-index: 99999;
+}
+.hover2:hover .guidenavigation {
+	display: inline-block;
+	position: absolute;
+	top: 190px;
+	color: #ff936a;
+	z-index: 99999;
+}
+.logo {
+	width: auto;
+	height: 100px;
+	padding-top: 10px;
+}
+
+.hover2:hover #icon1 {
+	color: #ff936a;
+
+}
+.hover2:hover p {
+	color: #ff936a;
+
+}
+.hover1:hover #icon1 {
+	color: #ff936a;
+
+}
+.hover1:hover p {
+	color: #ff936a;
+
+}
+.guidenavigation li {
+	font-size: 46px;
+	list-style: none;
+}
+.continentnavigation li {
+	font-size: 46px;
+	list-style: none;
+}
+li {
+	font-family: 'Ubuntu';
+}
+
+footer {
+	background-color: #01b6ff;
+	height: 50px;
+	width: 100vw;
+	margin-top: 8px;
+}
+.footertxt {
+	font-size: 20px;
+	padding-top: 14px;
+	text-align: center;
+	font-family: fantasy;
+}
